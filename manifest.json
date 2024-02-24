@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "bruh",
+  "version": "1.0",
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "permissions": ["app.window.fullscreen", "app.window.height", "app.window.width"]
+}
